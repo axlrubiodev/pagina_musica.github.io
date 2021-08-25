@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+:root{
+	--fuente_titulos: 'Jura', sans-serif;
+	--fuente_parrafos: 'Open Sans', sans-serif;
+}
+
+
+*{
+	font-family: var(--fuente_parrafos) !important;
+}
+
+*:focus{
+	outline: none;
+}
+
+#boton_activado{
+	background: #C6C4B0 !important;
+	color: white !important;
+}
+
+.titulo{
+	font-size: 30px !important;
+	text-transform: uppercase;
+	font-weight: 700 !important;
+	font-family: var(--fuente_titulos) !important;
+	text-align: center;
+	margin-bottom: 40px;
+	color: #C9A78F;
+}
+
+.subtitulo{
+	font-size: 20px;
+	font-family: var(--fuente_titulos) !important;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 30px; 
+}
+
+.descripcion{
+	width: 60%;
+	margin: 0 auto;
+	font-size: 14px;
+	text-align: center;
+	color: #4F4E4A;
+	margin-bottom: 25px;
+}
+
+/* ---------------- Cabecera de la página web ---------------- */
+#cabecera{
+}
+
+.wrap{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+/* --------------- Contenedor del logotipo --------------- */
+#contenedor_logotipo{
+	padding: 40px 0px;
+}
+
+#contenedor_logotipo .wrap{
+	width: 1100px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#contenedor_logotipo .wrap #logo img{
+	width: 100px;
+}
+
+
+#contenedor_titulo_texto{
+	margin-left: 20px;
+	border-left: 5px solid #000;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+#contenedor_titulo_texto p{
+	width: 90%;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+#titulo_principal{
+	font-family: var(--fuente_titulos) !important;
+	font-size: 45px;
+	text-transform: uppercase !important;
+	font-weight: 800;
+}
+/* --------------- Contenedor del logotipo --------------- */
+
+/* ---------------- Barra de navegación ---------------- */
+#barra_navegacion{
+	border-top: 1px solid #C6C4B0;
+	border-bottom: 1px solid #C6C4B0;
+}
+
+#barra_navegacion .wrap ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#barra_navegacion .wrap ul li a{
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 400;
+	color: #676663;
+	transition: background 500ms, color 500ms;
+}
+
+#barra_navegacion .wrap ul li a:hover{
+	background: #C6C4B0 !important;
+	color: #FFF !important;
+}
+/* ---------------- Barra de navegación ---------------- */
+/* ---------------- Cabecera de la página web ---------------- */
+
+
+
+/* ---------------------- Pie de página ---------------------- */
+	#footer{
+		padding: 80px 0px;
+		background: #000000;
+		color: white;
+	}
+
+	#footer .wrap{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#footer .wrap .redes_sociales{
+		width: 50%;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		justify-items: center;
+		margin-top: 30px;
+		margin-bottom: 90px;
+	}
+
+	#footer .wrap .redes_sociales img{
+		width: 40px;
+	}
+
+	#footer #dedicatoria{
+		font-size: 14px;
+	}
+/* ---------------------- Pie de página ---------------------- */

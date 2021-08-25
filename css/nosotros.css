@@ -1,0 +1,29 @@
+#nosotros{
+	padding: 120px;
+}
+
+#nosotros .subtitulo{
+	text-align: left;
+}
+
+ #nosotros .descripcion{
+ 	width: 100%;
+ 	text-align: left;
+ }
+
+ .doble{
+ 	min-height: 400px; 
+ 	display: grid;
+ 	grid-template-columns: 1fr 1fr;
+ 	align-items: center;
+ 	grid-gap: 30px;
+ 	margin: 60px 0px;
+ }
+
+ .doble img{
+ 	width: 100%;
+ }
+
+ #video_nosotros{
+ 	width: 100%;
+ }

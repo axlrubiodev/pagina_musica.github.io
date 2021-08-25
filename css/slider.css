@@ -1,0 +1,141 @@
+#contenedor_slider{
+    width: 1010px;
+    border-radius: 10px;
+    margin: 100px auto 0px auto;
+    border: 5px solid #C6C4B1;
+
+    position: relative;
+
+    display: flex;
+    overflow: hidden;
+}
+
+
+#contenedor_slider .boton_atras,
+#contenedor_slider .boton_delante{
+    padding: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    width: 10px;
+    height: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+
+#contenedor_slider .boton_atras{
+    position: absolute;
+    left: 20px;
+    top: 40%;
+    z-index: 9000;
+}
+
+#contenedor_slider .boton_atras:hover, 
+#contenedor_slider .boton_delante:hover{
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+}
+
+#contenedor_slider .boton_delante{
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    z-index: 9000;
+}
+
+.slider{
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider ul{
+    width: 300%;
+    display: flex;
+    transition: all 1s;
+}
+
+.diapositiva{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+.diapositiva img{
+    width: 100%;
+}
+
+
+.info_dia{
+    width: 40%;
+
+    position: absolute;
+    
+    right: 40px;
+    bottom: 30%;
+    z-index: 200px;
+
+    text-align: center;
+}
+
+.info_dia h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--fuente_titulos) !important;
+    font-weight: 700 !important;
+    color: #CAA790;
+}
+
+.info_dia a{
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 40px;
+    background-color: #C6C4B1;
+    transition: all 500ms;
+}
+
+.info_dia a:hover{
+    background-color: #B9B89E;
+}
+
+
+.info_dia_left{
+    width: 40%;
+
+    position: absolute;
+    
+    left: 40px;
+    bottom: 30%;
+    z-index: 200px;
+
+    text-align: center;
+}
+
+.info_dia_left h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--fuente_titulos) !important;
+    font-weight: 700 !important;
+    color: #CAA790;
+}
+
+.info_dia_left a{
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 40px;
+    background-color: #C6C4B1;
+    transition: all 500ms;
+}
+
+.info_dia_left a:hover{
+    background-color: #B9B89E;
+}

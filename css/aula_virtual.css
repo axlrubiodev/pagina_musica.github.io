@@ -1,0 +1,11 @@
+.doble{
+    align-items: flex-start !important;
+}
+
+.doble p{
+    line-height: normal;
+}
+
+.leccion{
+    width: 100% !important;
+}

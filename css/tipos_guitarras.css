@@ -1,0 +1,7 @@
+#nosotros .doble{
+    align-items: flex-start !important;
+}
+
+#nosotros .doble p{
+    line-height: normal !important;
+}

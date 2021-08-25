@@ -1,0 +1,145 @@
+.bloque_doble_inicio .wrap{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 120px 0px;
+}
+
+.bloque_doble_inicio .wrap .imagen_inicio img{
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.bloque_doble_inicio .wrap .texto_inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 250px !important;
+}
+
+.bloque_doble_inicio .wrap .texto_inicio .titulo{
+    /* text-align: left; */
+    font-weight: 800 !important;
+    font-size: 60px !important;
+}
+
+.bloque_doble_inicio .wrap .texto_inicio .descripcion{
+    /* margin-left: 0 !important; */
+    /* text-align: left; */
+    font-size: 16px;
+    color: #4F4E4A;;
+    /* font-weight: 600; */
+}
+
+.boton_inicio{
+    margin-top: 30px !important;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: white;
+    background-color: #CAA790;
+    display: block;
+    padding: 18px;
+    border-radius: 50px;
+    margin: 0 auto;
+    transition: background 600ms;
+}
+
+.boton_inicio:hover{
+    background-color: #C08867;
+}
+
+
+
+
+
+
+
+
+
+/* Servicios */
+#servicios .wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+#servicios .wrap .servicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#servicios .wrap .descripcion{
+    line-height: normal;
+}
+
+#servicios .wrap .servicio img{
+    width: 70px !important;
+    margin: 70px 0px;
+    opacity: 0.7;
+}
+/* Servicios */
+
+
+
+
+
+
+
+
+
+/* newsletter */
+#newsletter{
+    padding-bottom: 200px;
+}
+
+#newsletter .titulo{
+    font-size: 30px !important;
+}
+
+#newsletter .descripcion{
+    color: #4F4E4A;
+}
+
+#newsletter .contenedor_formulario_boletin{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#newsletter .contenedor_formulario_boletin label{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+#newsletter .contenedor_formulario_boletin input{
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px #c9a78f inset;
+    border: transparent;
+}
+
+#newsletter .contenedor_formulario_boletin button{
+    padding: 10px;
+    margin-top: 12px;
+    background: #C6C4B0;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+    transition: background 500ms;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#newsletter .contenedor_formulario_boletin button:hover{
+	background: #A5A17E;
+}
